@@ -1,5 +1,5 @@
 import 'package:polymer_element/polymer_element.dart';
-import 'package:logging/logging.dart';
+import 'package:tutorial1/logger.dart';
 
 // ignore: UNUSED_IMPORT
 import 'package:tutorial1/my_style.dart';
@@ -27,6 +27,7 @@ abstract class MyComponent extends PolymerElement {
 
   ready() {
     super.ready();
+    _logger.fine('MyComponent ready');
     myItems = [
       new MyItem(col1:'Pizza',col2:'Margherita'),
       new MyItem(col1:'Caffè',col2:'Espresso'),
