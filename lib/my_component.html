@@ -9,5 +9,23 @@
    <p>
      Here's comes the fun.
    </p>
+   <vaadin-grid items='[[myItems]]'>
+     <vaadin-grid-column>
+       <template class='header'>
+         First Column
+       </template>
+       <template>
+         [[item.col1]]
+       </template>
+     </vaadin-grid-column>
+     <vaadin-grid-column>
+       <template class='header'>
+         Second Column
+       </template>
+       <template>
+         [[item.col2]]
+       </template>
+     </vaadin-grid-column>
+   </vaadin-grid>
   </template>
 </dom-module>
