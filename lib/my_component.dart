@@ -1,5 +1,5 @@
 import 'package:polymer_element/polymer_element.dart';
-import 'package:logging/logging.dart';
+import 'package:tutorial1/logger.dart';
 
 // ignore: UNUSED_IMPORT
 import 'package:tutorial1/my_style.dart';
